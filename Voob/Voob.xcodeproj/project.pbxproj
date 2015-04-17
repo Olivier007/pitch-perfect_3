@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFA77931ADED6A9004F31D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA77921ADED6A9004F31D1 /* AppDelegate.swift */; };
+		CFFA77951ADED6A9004F31D1 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA77941ADED6A9004F31D1 /* RecordSoundsViewController.swift */; };
+		CFFA77981ADED6A9004F31D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFA77961ADED6A9004F31D1 /* Main.storyboard */; };
+		CFFA779A1ADED6A9004F31D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFA77991ADED6A9004F31D1 /* Images.xcassets */; };
+		CFFA779D1ADED6A9004F31D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFFA779B1ADED6A9004F31D1 /* LaunchScreen.xib */; };
+		CFFA77A91ADED6A9004F31D1 /* VoobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA77A81ADED6A9004F31D1 /* VoobTests.swift */; };
+		CFFA77B31ADEEEDB004F31D1 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA77B21ADEEEDB004F31D1 /* PlaySoundsViewController.swift */; };
+		CFFA77B51ADEF10D004F31D1 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA77B41ADEF10D004F31D1 /* movie_quote.mp3 */; };
+		CFFA77B71ADF1CA3004F31D1 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA77B61ADF1CA3004F31D1 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFA77A31ADED6A9004F31D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFA77851ADED6A9004F31D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFA778C1ADED6A9004F31D1;
+			remoteInfo = Voob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFA778D1ADED6A9004F31D1 /* Voob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFA77911ADED6A9004F31D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFA77921ADED6A9004F31D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFFA77941ADED6A9004F31D1 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		CFFA77971ADED6A9004F31D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFA77991ADED6A9004F31D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFFA779C1ADED6A9004F31D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFFA77A21ADED6A9004F31D1 /* VoobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFA77A71ADED6A9004F31D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFA77A81ADED6A9004F31D1 /* VoobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoobTests.swift; sourceTree = "<group>"; };
+		CFFA77B21ADEEEDB004F31D1 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		CFFA77B41ADEF10D004F31D1 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		CFFA77B61ADF1CA3004F31D1 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFA778A1ADED6A9004F31D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA779F1ADED6A9004F31D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFA77841ADED6A9004F31D1 = {
+			isa = PBXGroup;
+			children = (
+				CFFA778F1ADED6A9004F31D1 /* Voob */,
+				CFFA77A51ADED6A9004F31D1 /* VoobTests */,
+				CFFA778E1ADED6A9004F31D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFA778E1ADED6A9004F31D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA778D1ADED6A9004F31D1 /* Voob.app */,
+				CFFA77A21ADED6A9004F31D1 /* VoobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFA778F1ADED6A9004F31D1 /* Voob */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA77921ADED6A9004F31D1 /* AppDelegate.swift */,
+				CFFA77941ADED6A9004F31D1 /* RecordSoundsViewController.swift */,
+				CFFA77B61ADF1CA3004F31D1 /* RecordedAudio.swift */,
+				CFFA77961ADED6A9004F31D1 /* Main.storyboard */,
+				CFFA77B21ADEEEDB004F31D1 /* PlaySoundsViewController.swift */,
+				CFFA77991ADED6A9004F31D1 /* Images.xcassets */,
+				CFFA779B1ADED6A9004F31D1 /* LaunchScreen.xib */,
+				CFFA77901ADED6A9004F31D1 /* Supporting Files */,
+			);
+			path = Voob;
+			sourceTree = "<group>";
+		};
+		CFFA77901ADED6A9004F31D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA77B41ADEF10D004F31D1 /* movie_quote.mp3 */,
+				CFFA77911ADED6A9004F31D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFFA77A51ADED6A9004F31D1 /* VoobTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA77A81ADED6A9004F31D1 /* VoobTests.swift */,
+				CFFA77A61ADED6A9004F31D1 /* Supporting Files */,
+			);
+			path = VoobTests;
+			sourceTree = "<group>";
+		};
+		CFFA77A61ADED6A9004F31D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA77A71ADED6A9004F31D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFA778C1ADED6A9004F31D1 /* Voob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFA77AC1ADED6AA004F31D1 /* Build configuration list for PBXNativeTarget "Voob" */;
+			buildPhases = (
+				CFFA77891ADED6A9004F31D1 /* Sources */,
+				CFFA778A1ADED6A9004F31D1 /* Frameworks */,
+				CFFA778B1ADED6A9004F31D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voob;
+			productName = Voob;
+			productReference = CFFA778D1ADED6A9004F31D1 /* Voob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFA77A11ADED6A9004F31D1 /* VoobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFA77AF1ADED6AA004F31D1 /* Build configuration list for PBXNativeTarget "VoobTests" */;
+			buildPhases = (
+				CFFA779E1ADED6A9004F31D1 /* Sources */,
+				CFFA779F1ADED6A9004F31D1 /* Frameworks */,
+				CFFA77A01ADED6A9004F31D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFA77A41ADED6A9004F31D1 /* PBXTargetDependency */,
+			);
+			name = VoobTests;
+			productName = VoobTests;
+			productReference = CFFA77A21ADED6A9004F31D1 /* VoobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFA77851ADED6A9004F31D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Layton;
+				TargetAttributes = {
+					CFFA778C1ADED6A9004F31D1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CFFA77A11ADED6A9004F31D1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CFFA778C1ADED6A9004F31D1;
+					};
+				};
+			};
+			buildConfigurationList = CFFA77881ADED6A9004F31D1 /* Build configuration list for PBXProject "Voob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFA77841ADED6A9004F31D1;
+			productRefGroup = CFFA778E1ADED6A9004F31D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFA778C1ADED6A9004F31D1 /* Voob */,
+				CFFA77A11ADED6A9004F31D1 /* VoobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFA778B1ADED6A9004F31D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA77981ADED6A9004F31D1 /* Main.storyboard in Resources */,
+				CFFA779D1ADED6A9004F31D1 /* LaunchScreen.xib in Resources */,
+				CFFA77B51ADEF10D004F31D1 /* movie_quote.mp3 in Resources */,
+				CFFA779A1ADED6A9004F31D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA77A01ADED6A9004F31D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFA77891ADED6A9004F31D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA77B71ADF1CA3004F31D1 /* RecordedAudio.swift in Sources */,
+				CFFA77951ADED6A9004F31D1 /* RecordSoundsViewController.swift in Sources */,
+				CFFA77B31ADEEEDB004F31D1 /* PlaySoundsViewController.swift in Sources */,
+				CFFA77931ADED6A9004F31D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA779E1ADED6A9004F31D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA77A91ADED6A9004F31D1 /* VoobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFA77A41ADED6A9004F31D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFA778C1ADED6A9004F31D1 /* Voob */;
+			targetProxy = CFFA77A31ADED6A9004F31D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFA77961ADED6A9004F31D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFA77971ADED6A9004F31D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFA779B1ADED6A9004F31D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFA779C1ADED6A9004F31D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFA77AA1ADED6AA004F31D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFA77AB1ADED6AA004F31D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFA77AD1ADED6AA004F31D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFFA77AE1ADED6AA004F31D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFFA77B01ADED6AA004F31D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voob.app/Voob";
+			};
+			name = Debug;
+		};
+		CFFA77B11ADED6AA004F31D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voob.app/Voob";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFA77881ADED6A9004F31D1 /* Build configuration list for PBXProject "Voob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA77AA1ADED6AA004F31D1 /* Debug */,
+				CFFA77AB1ADED6AA004F31D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFA77AC1ADED6AA004F31D1 /* Build configuration list for PBXNativeTarget "Voob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA77AD1ADED6AA004F31D1 /* Debug */,
+				CFFA77AE1ADED6AA004F31D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFA77AF1ADED6AA004F31D1 /* Build configuration list for PBXNativeTarget "VoobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA77B01ADED6AA004F31D1 /* Debug */,
+				CFFA77B11ADED6AA004F31D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFA77851ADED6A9004F31D1 /* Project object */;
+}
